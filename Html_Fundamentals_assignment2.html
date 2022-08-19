@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        .text-left {
+            text-align: left;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+        table {
+            width: 40%;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+        }
+
+        .table-border {
+            border: 2px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <br />
+    <br />
+    <table>
+        <tbody>
+            <tr>
+                <td class="text-left">Left</td>
+                <td class="text-center">Center</td>
+                <td class="text-right">Right</td>
+            </tr>
+            <tr>
+                <td class="text-left">Left</td>
+                <td class="text-center">Center</td>
+                <td class="text-right">Right</td>
+            </tr>
+            <tr>
+                <td class="text-left">Left</td>
+                <td class="text-center">Center</td>
+                <td class="text-right">Right</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6" class="text-center">Heading</th>
+            </tr>
+            <tr>
+                <th colspan="6"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2" colspan="3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="6"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="1"></td>
+                <td colspan="1"></td>
+                <td colspan="1"></td>
+            </tr>
+            <tr>
+                <td colspan="1" rowspan="4"></td>
+                <td></td>
+                <td rowspan="4"></td>
+
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <table class="table-border">
+        <tbody>
+            <tr class="table-border">
+                <td class="table-border" style="background: #617541; height: 15px;" colspan="3"></td>
+            </tr>
+            <tr class="table-border">
+                <td class="table-border" style="width: 15%;" colspan="1"></td>
+                <td class="table-border" style="width: 75%;">
+                    <img src=".\Capture.PNG" width="90%" height="40%" style="padding: 4% 4% 4% 0%;" />
+                </td>
+                <td class="table-border" style="width: 10%;"></td>
+            </tr>
+            <tr class="table-border">
+                <td class="table-border" style="background: #25355E; height: 15px;" colspan="3"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
