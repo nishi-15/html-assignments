@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <form method="post" enctype="application/x-www-form-urlencoded">
+        <div>
+            <label id="firstname_lbl"> First Name: </label><br />
+            <input type="text" name="firstname_txt" />
+        </div><br />
+        <div>
+            <label id="lastname_lbl"> Last Name: </label><br />
+            <input type="text" name="lastname_txt" />
+        </div><br />
+        <div>
+            <label id="email_lbl"> Email: </label><br />
+            <input type="email" name="email_txt" />
+        </div><br />
+        <div>
+            <label id="contactno_lbl"> Contact Number: </label><br />
+            <input type="tel" name="contact_no_txt" />
+        </div><br />
+        <div>
+            <label id="address_lbl"> Address: </label><br />
+            <textarea name="address_txt" draggable="true"></textarea>
+        </div><br />
+        <div>
+            <label id="username_lbl"> Username: </label><br />
+            <input type="text" name="username_txt" />
+        </div><br />
+        <div>
+            <label id="password_lbl"> Password: </label><br />
+            <input type="password" name="password_txt" />
+        </div><br />
+        <div>
+            <label id="gender_lbl"> Gender: </label><br />
+            <input type="radio" id="male" name="gender_radio" value="Male" />
+            <label for="male" name="male_lbl"> Male</label><br />
+            <input type="radio" id="female" name="gender_radio" value="Female" />
+            <label for="male" name="famale_lbl"> Female</label>
+        </div><br />
+        <div>
+            <label id="qualification_lbl"> Qualification:</label><br />
+            <select id="qualification_options" style="width: 10%;">
+                <option>--Select--</option>
+                <option value="BCA"> B.C.A.</option>
+                <option value="BCOM"> B.Com</option>
+                <option value="BBA"> B.B.A.</option>
+                <option value="BA"> B.A.</option>
+            </select>
+        </div><br />
+        <div>
+            <label id="experience_lbl"> Experience:</label><br />
+            <select id="experience_options" style="width: 10%;">
+                <option>--Select--</option>
+                <option value="sixMonths"> 6 Months</option>
+                <option value="oneYear"> 1 Year</option>
+                <option value="twoYears"> 2 years</option>
+                <option value="threeYears"> 3 years</option>
+                <option value="fiveYears"> 5 years</option>
+            </select>
+        </div><br />
+        <div>
+            <label id="coding_lang_lbl"> Coding Languages: </label><br />
+            <input type="checkbox" name="c_cpp_chk" />
+            <label for="c_cpp"> C/C++</label><br />
+            <input type="checkbox" name="java_chk" />
+            <label for="java"> Java</label><br />
+            <input type="checkbox" name="csharp_chk" />
+            <label for="csharp"> C#</label><br />
+            <input type="checkbox" name="php_chk" />
+            <label for="php"> PHP</label><br />
+            <input type="checkbox" name="python_chk" />
+            <label for="python"> Python</label><br />
+        </div><br />
+        <div>
+            <input type="submit" name="submit" value="submit" />
+        </div>
+    </form>
+</body>
+
+</html>
